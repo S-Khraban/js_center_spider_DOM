@@ -1,0 +1,2 @@
+function e(){var e=document.querySelector(".wall"),t=document.querySelector(".spider");if(e&&t){"static"===getComputedStyle(e).position&&(e.style.position="relative"),t.style.position="absolute";var o=function(){var o=(e.clientWidth-t.offsetWidth)/2,n=(e.clientHeight-t.offsetHeight)/2;t.style.left="".concat(o,"px"),t.style.top="".concat(n,"px")};t.complete?o():t.addEventListener("load",o,{once:!0}),window.addEventListener("resize",o)}}"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e,{once:!0}):e();
+//# sourceMappingURL=index.dbc54658.js.map
